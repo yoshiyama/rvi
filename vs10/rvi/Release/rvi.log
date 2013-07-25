@@ -1,0 +1,33 @@
+﻿2013/07/17 11:23:40 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\rvi\rvi.vcxproj" (build ターゲット)。
+     1>PrepareForBuild:
+         ディレクトリ "C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\Release\" を作成しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\rvi.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\rvi.cpp
+         rvi.cpp
+     1>..\..\rvi.cpp(21): warning C4244: '=' : 'clock_t' から 'float' への変換です。データが失われる可能性があります。
+     1>..\..\rvi.cpp(30): warning C4129: '%' : エスケープ シーケンスとして正しく認識されませんでした。
+     1>..\..\rvi.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>..\..\rvi.cpp(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>..\..\rvi.cpp(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>..\..\rvi.cpp(78): warning C4244: '=' : 'clock_t' から 'float' への変換です。データが失われる可能性があります。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\Release\rvi.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\rvi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\Release\rvi.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\Release\rvi.lib" /MACHINE:X86 Release\rvi.obj
+         コード生成しています。
+         コード生成が終了しました。
+         rvi.vcxproj -> C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\Release\rvi.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\Release\rvi.exe;#1" /manifest Release\rvi.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\rvi.unsuccessfulbuild" を削除しています。
+         "Release\rvi.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\survey2\Dropbox\2013Dropbox\nagata&hasegawa\rvi for arrays\rvi\rvi\rvi.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.37
